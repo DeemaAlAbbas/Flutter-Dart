@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "245598974377",
+    "project_id": "ads-project-ec129",
+    "storage_bucket": "ads-project-ec129.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245598974377:android:87223049322f04583014b8",
+        "android_client_info": {
+          "package_name": "com.example.ads_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245598974377-e924vkk77djeddrf2p12lr0vnl2ts3s4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASAK01AZeOD_DvBoUsWnn2PSoXRK_YxtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245598974377-e924vkk77djeddrf2p12lr0vnl2ts3s4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
