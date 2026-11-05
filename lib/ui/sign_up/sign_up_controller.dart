@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import'package:flutter_application_1/ui/sign_up/sign_up_screen.dart';
+//import'package:flutter_application_1/ui/sign_up/sign_up_screen.dart';
+// // here we dont see that 
 
 
  class SignUpController extends GetxController {
@@ -51,12 +52,15 @@ bool isEmailValid = RegExp(r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$').hasMatch(email);
 
     return true; // Form is valid
   }
-  void SignUp()
+  void SignUp() async {
   {
     if (validateForm()) {
-      // Proceed with sign-up logic
+      Get.dialog(
+        const Center(child: CircularProgressIndicator()), //  for lock the screen until the process is done 😒🩵
+        barrierDismissible: false,);
+       
       Get.snackbar('نجاح', 'تم إنشاء الحساب بنجاح');
     }
   }
- }
+ }}
  
